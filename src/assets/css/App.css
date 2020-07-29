@@ -1,0 +1,45 @@
+
+.container {
+  background-color: #f3efb2;
+  max-width: 1000px !important;
+  margin: 10%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.n_card{
+  background-color: #fffde4;
+  border-radius: 30px;
+  padding-left: 30px !important;
+}
+
+img {
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: baseline !important;
+  width: 150px;
+  position: relative;
+}
+
+.btn{
+  width: 80px;
+  margin: 20px;
+  text-align: center;
+}
+
+.data {
+  display: inline-block;
+  padding: 60px;;
+  max-width: 550px;
+}
+
+@media (max-width: 960px)
+{
+  .n_card{
+    text-align: center;
+  }
+  .col-md-3{
+    text-align: center;
+  }
+}
